@@ -30,7 +30,7 @@ public class crearv1{
         //Tipo de documento
         Label typeLabel = new Label("Type:");
         ComboBox<String> typeComboBox = new ComboBox<>();
-        typeComboBox.getItems().addAll("Paper", "Articulo", "Libro", "Tesis", "Revista");
+        typeComboBox.getItems().addAll("Ponencia", "Articulo", "Libro");
         typeComboBox.getSelectionModel().selectFirst();
         typeComboBox.setPrefWidth(300);
         vbox.getChildren().addAll(typeLabel, typeComboBox);
