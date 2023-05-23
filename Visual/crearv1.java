@@ -38,7 +38,7 @@ public class crearv1 {
         documentComboBox.getSelectionModel().selectFirst();
 
         // Crea un botón para reservar el documento seleccionado
-        Button reserveButton = new Button("Reservar");
+        Button reserveButton = new Button("Crear");
 
         reserveButton.setOnAction(reserveEvent -> {
           String selectedDocument = documentComboBox.getSelectionModel().getSelectedItem();
