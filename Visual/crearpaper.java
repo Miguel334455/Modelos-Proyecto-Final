@@ -21,6 +21,7 @@ public class crearpaper{
         VBox vbox = new VBox();
         vbox.setAlignment(Pos.CENTER);
         vbox.setSpacing(10);
+        popupStage.setTitle("Crear Paper");
 
         //Nombre del documento
         Label nameLabel = new Label("Nombre:");

@@ -18,6 +18,7 @@ public class crearlibro{
     private VBox vbox;
 
     public crearlibro(Stage popupStage) {
+        popupStage.setTitle("Crear Libro");
         VBox vbox = new VBox();
         vbox.setAlignment(Pos.CENTER);
         vbox.setSpacing(10);

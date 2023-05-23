@@ -18,9 +18,11 @@ public class crearponencia{
     private VBox vbox;
 
     public crearponencia(Stage popupStage) {
+        
         VBox vbox = new VBox();
         vbox.setAlignment(Pos.CENTER);
         vbox.setSpacing(10);
+        popupStage.setTitle("Crear Ponencia");
 
         //Nombre del documento
         Label nameLabel = new Label("Nombre:");

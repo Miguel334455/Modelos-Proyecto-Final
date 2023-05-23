@@ -45,17 +45,17 @@ public class crearv1 {
      
          if (selectedDocument.equals("Ponencia")) {
             crearponencia crearponencia = new crearponencia(popupStage);
-            popupStage.setScene(new Scene(crearponencia.getVBox(), 700, 600));
+            popupStage.setScene(new Scene(crearponencia.getVBox(), 600, 600));
             popupStage.getScene().getStylesheets().add("style.css");
             popupStage.show();
         } else if (selectedDocument.equals("Paper")) {
                 crearpaper crearpaper = new crearpaper(popupStage);
-                popupStage.setScene(new Scene(crearpaper.getVBox(), 800, 600));
+                popupStage.setScene(new Scene(crearpaper.getVBox(), 600, 600));
                 popupStage.getScene().getStylesheets().add("style.css");
                 popupStage.show();
         } else if (selectedDocument.equals("Libro")) {
                 crearlibro crearlibro = new crearlibro(popupStage);
-                popupStage.setScene(new Scene(crearlibro.getVBox(), 800, 600));
+                popupStage.setScene(new Scene(crearlibro.getVBox(), 600, 600));
                 popupStage.getScene().getStylesheets().add("style.css");
                 popupStage.show();
        }
