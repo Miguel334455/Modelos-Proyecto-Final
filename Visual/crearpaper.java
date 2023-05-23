@@ -80,6 +80,7 @@ public class crearpaper{
 
 
 
+        //agregar el campo de SMM
         smmField.setPrefWidth(200);
         // Crear el boton de crear
         Button createButton = new Button("Crear");
