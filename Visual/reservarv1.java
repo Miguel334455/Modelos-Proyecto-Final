@@ -64,7 +64,7 @@ public class reservarv1 {
         dropdownLayout.getChildren().addAll(logoImageView,documentComboBox, reserveButton);
         
 
-;
+        //Guardar vbox
         
       
         this.vbox = dropdownLayout;
