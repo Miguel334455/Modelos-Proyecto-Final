@@ -86,4 +86,8 @@ public class crearv1{
     public VBox getVBox(){
         return vbox;
     }
+
+    public void setVBox(VBox vbox){
+        this.vbox = vbox;
+    }
 }
