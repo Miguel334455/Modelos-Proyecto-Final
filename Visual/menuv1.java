@@ -88,9 +88,22 @@ public class menuv1 {
     crearv1 createdoc=new crearv1(popupStage);
     Scene popupScene = new Scene(createdoc.getVBox(), 400, 600);
     popupStage.setScene(popupScene);
+    popupStage.setTitle("Crear documento");
     popupScene.getStylesheets().add("style.css");
     popupStage.showAndWait();
     
+    });
+
+    unsubscribeMenuItem.setOnAction(event -> {
+        baja baja = new baja(popupStage);
+        Scene popupScene = new Scene(baja.getVBox(), 400, 450);
+        popupStage.setScene(popupScene);
+        popupStage.setTitle("Dar de baja documento");
+        popupScene.getStylesheets().add("style.css");
+        popupStage.showAndWait();
+
+
+
     });
     
         // Agrega elementos de menú al menú

@@ -21,33 +21,33 @@ public class crearponencia{
         
         VBox vbox = new VBox();
         vbox.setAlignment(Pos.CENTER);
-        vbox.setSpacing(10);
+        vbox.setSpacing(5);
         popupStage.setTitle("Crear Ponencia");
 
         //Nombre del documento
         Label nameLabel = new Label("Nombre:");
         TextField nameField = new TextField();
         vbox.getChildren().addAll(nameLabel, nameField);
-        vbox.setMargin(nameField, new Insets(0, 50,10, 50));
+        vbox.setMargin(nameField, new Insets(0, 100,10, 100));
 
         //Numero de paginas
         Label congresoLabel = new Label("Congreso:");
         TextField congresoField = new TextField();
         vbox.getChildren().addAll(congresoLabel, congresoField);
-        vbox.setMargin(congresoField, new Insets(0, 50,10, 50));
+        vbox.setMargin(congresoField, new Insets(0, 100,10, 100));
 
         //agrergar el campo de ISBN
         Label isbnLabel = new Label("ISBN:");
         TextField isbnField = new TextField();
         vbox.getChildren().addAll(isbnLabel, isbnField);
-        vbox.setMargin(isbnField, new Insets(0, 50,10, 50));
+        vbox.setMargin(isbnField, new Insets(0, 100,10, 100));
 
 
          //agregar el campo de fecha de publicacion
         Label publicationDateLabel = new Label("Fecha de Publicacion:");
         DatePicker publicationDatePicker = new DatePicker();
         vbox.getChildren().addAll(publicationDateLabel, publicationDatePicker);
-        vbox.setMargin(publicationDatePicker, new Insets(0, 50,10, 50));
+        vbox.setMargin(publicationDatePicker, new Insets(0, 100,10, 100));
 
 
         
@@ -55,26 +55,26 @@ public class crearponencia{
         Label authorLabel = new Label("Autor:");
         TextField authorField = new TextField();
         vbox.getChildren().addAll(authorLabel, authorField);
-        vbox.setMargin(authorField, new Insets(0, 50,10, 50));
+        vbox.setMargin(authorField, new Insets(0, 100,10, 100));
 
         //Correo del autor
         Label emailLabel = new Label("Correo:");
         TextField emailField = new TextField();
         vbox.getChildren().addAll(emailLabel, emailField);
-        vbox.setMargin(emailField, new Insets(0, 50,10, 50));
+        vbox.setMargin(emailField, new Insets(0, 100,10, 100));
 
         //Direccion del autor
         Label addressLabel = new Label("Direccion:");
         TextField addressField = new TextField();
         vbox.getChildren().addAll(addressLabel, addressField);
-        vbox.setMargin(addressField, new Insets(0, 50,10, 50));
+        vbox.setMargin(addressField, new Insets(0, 100,10, 100));
 
 
         //telefono del autor
         Label phoneLabel = new Label("Telefono:");
         TextField phoneField = new TextField();
         vbox.getChildren().addAll(phoneLabel, phoneField);
-        vbox.setMargin(phoneField, new Insets(0, 50,10, 50));
+        vbox.setMargin(phoneField, new Insets(0, 100,10, 100));
         
 
 
